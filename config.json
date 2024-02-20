@@ -1,0 +1,6 @@
+{
+    "db_host":"<TiDB_cluster_host>",
+    "db_port": 4000,
+    "db_user": "<TiDB_cluster_user>",
+    "db_password" : "<TiDB_cluster_password>"
+}
