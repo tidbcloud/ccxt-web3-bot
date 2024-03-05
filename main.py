@@ -14,7 +14,7 @@ def process():
     config_info = load_config(CONFIG_FILE)
     db_conn = connect_db(config_info)
     crypto_list = ['BTC/USDT:USDT', 'ETH/USDT:USDT', 'XRP/USDT:USDT', 'BNB/USDT:USDT','SOL/USDT:USDT']
-    limit_days = 120
+    limit_days = 720
     create_crypto_table_if_non_exist(db_conn)
     import_crypto_data(db_conn, crypto_list, limit_days)
 
